@@ -15,7 +15,7 @@
 *.iml
 .idea
 
-# Ignore the temporary outputs from contract instaniation
+# Ignore the temporary outputs from contract instantiation
 *.json
 store_tx_hash.txt
 instantiate_tx_hash.txt
