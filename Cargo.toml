@@ -1,0 +1,24 @@
+[workspace]
+members = ["packages/*", "contracts/*"]
+resolver = "2"
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = true
+debug-assertions = false
+codegen-units = 1
+panic = 'abort'
+incremental = false
+overflow-checks = true
+
+[workspace.dependencies]
+cosmwasm-std = "1.5"
+cw-storage-plus = "1.2"
+cw2 = "1"
+thiserror = "1.0"
+itertools = "0.12"
+cosmwasm-schema = "1.5"
+cw-utils = "1"
+astroport = { path = "./packages/astroport", version = "5.7.0" }
