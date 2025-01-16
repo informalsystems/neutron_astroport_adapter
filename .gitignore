@@ -19,3 +19,5 @@
 *.json
 store_tx_hash.txt
 instantiate_tx_hash.txt
+code_id.txt
+contract_address.txt
